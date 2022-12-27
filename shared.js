@@ -15,25 +15,3 @@ module.exports = {
     }
 }
 
-// module.exports = {
-//     selectedDb:{},
-//     async connect(){
-//         try{
-//             console.log("Welcome");            
-//             //Connecting to the database
-//             const db = mongoose
-//             .connect("mongodb+srv://devenv:devenv@cluster0.xj3j5.mongodb.net/capacityplanningDB?retryWrites=true&w=majority")
-//             .then(() => {
-//                 app.listen(process.env.PORT, () => {
-//                     console.log("DB connected");                    
-//                 });
-//             })
-//             .catch((err) => {
-//                 console.log("Error Occurred");
-//             });
-//             cons
-//         }catch(e){
-//             console.log(e);
-//         }
-//     }
-// }
